@@ -13,7 +13,7 @@ namespace Loupedeck.HWInfoPlugin
 
         // Initializes the command class.
         public MemoryUsageCommand()
-            : base(displayName: "Memory", description: "Display memory usage in MB", groupName: "Stats")
+            : base(displayName: "Memory (free)", description: "Display free memory in MB", groupName: "Status")
         {
             // Initialize timer to refresh the button icon every second
             this._timer = new System.Timers.Timer(1000);

@@ -12,7 +12,7 @@ namespace Loupedeck.HWInfoPlugin
 
         // Initializes the command class.
         public ProcessorUsageCommand()
-            : base(displayName: "Processor", description: "Display processor usage", groupName: "Stats")
+            : base(displayName: "Processor", description: "Display processor usage", groupName: "Status")
         {
             // Initialize timer to refresh the button icon every second
             this._timer = new System.Timers.Timer(1000);
